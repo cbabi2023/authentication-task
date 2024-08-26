@@ -1,6 +1,11 @@
 import 'package:auth_task/view/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
 
+// Global variables for storing password and email
+
+String? savedEmail;
+String? savedPassword;
+
 void main(List<String> args) {
   runApp(MyApp());
 }
